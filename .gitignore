@@ -4,6 +4,7 @@
 *.tfstate.*
 crash.log
 infra/build/
+infra/backend.hcl
 
 # Python
 __pycache__/
