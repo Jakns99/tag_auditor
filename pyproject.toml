@@ -1,0 +1,11 @@
+[project]
+name = "tag-auditor"
+version = "0.1.0"
+requires_python = ">=3.12"
+dependencies = ["boto3"]
+
+[project.optional-dependencies]
+dev = ["pytest]
+
+[tool.pytest.ini_options]
+python_path = ["src"]
